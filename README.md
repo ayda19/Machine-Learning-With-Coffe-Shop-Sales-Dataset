@@ -24,4 +24,3 @@ Temelde doktorlar ve hastalar arasındaki konuşmaların transkripsiyonlarını 
 
 
 # Veri setimin dosya boyutu büyük olduğu için yükleyemedim . Bu nedenle aşağıya linklini bırakıyorum .
-kaggle datasets download -d yousefsaeedian/ai-medical-chatbot
