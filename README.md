@@ -1,27 +1,10 @@
 
-# Machine Learning with Medical Chatbot Dataset                     
+# Machine Learning with Coffe Shop Sales           
   
 # Projenin Amacı
-Projenin amacı hasta il doktorlar arası iletişimi kolaylaştırmak , hastanın şikayetleri üzerine daha kolay tanı konulup uygun tedavi yöteminin bulunmasında yardımıcı olmaktır .
 
 # Veri Seti
-Bu veri seti 256916 satır ve 3 sütundan oluşmaktadır .
-Temelde doktorlar ve hastalar arasındaki konuşmaların transkripsiyonlarını içerir ve tıbbi konsültasyonların dinamiklerine dair değerli içgörüler sunar. Çeşitli tıbbi durumları, hasta endişelerini ve tedavi tartışmalarını kapsayan geniş bir etkileşim yelpazesi içerir. Veriler, hem hastaların gündeme getirdiği soruları ve endişeleri hem de doktorların sağladığı tıbbi tavsiyeleri, teşhisleri ve açıklamaları yakalamak üzere yapılandırılmıştır. 
 
-***Sütun isimleri şu aşağıdaki gibidir :***
-- Description
-- Patient
-- Doctor
-
-**Veri setimizin temel özellikleri**
-  
-***Doktor ve Hasta Rolleri***: Her görüşme, konuşmacının (doktor veya hasta) rolüyle açıklanarak iletişim kalıplarının analiz edilmesi kolaylaştırılmıştır.
-  
-***Tıbbi Bağlam*** : Veri seti, rutin kontrollerden daha karmaşık tıbbi tartışmalara kadar çeşitli senaryoları içererek geniş bir yelpazede sağlık diyalogları sunmaktadır.
-
-***Doğal Dil***: Konuşmalar doğal dilde sunulmakta ve bu sayede sağlık iletişimine odaklı NLP modellerinin geliştirilmesi ve test edilmesi mümkün olmaktadır.
-
-***Uygulamalar***: Bu veri seti, diyalog sistemleri oluşturma, iletişim etkinliğini analiz etme, tıbbi NLP modelleri geliştirme ve doktor-hasta etkileşimlerinin daha iyi anlaşılması yoluyla hasta bakımını geliştirme gibi çeşitli uygulamalar için kullanılabilir.
 
 
 
@@ -66,5 +49,3 @@ from sklearn.pipeline import Pipeline
 
 
 
-# Veri setimin dosya boyutu büyük olduğu için yükleyemedim . Bu nedenle aşağıya linklini bırakıyorum .
-https://www.kaggle.com/datasets/yousefsaeedian/ai-medical-chatbot/data?select=ai-medical-chatbot.csv#:~:text=calendar_view_week-,ai%2Dmedical%2Dchatbot.csv,-Summary
