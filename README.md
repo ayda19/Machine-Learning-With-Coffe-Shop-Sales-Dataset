@@ -79,8 +79,10 @@ from plotly.subplots import make_subplots
 
 
 # Model Seçimi
-En iyi perfomansaı veren algoritma seçilir , hiperparametetre optimize edilir . 
-Bu projede en iyi performansı veren modelin 
+En iyi perfomansaı veren algoritma seçilir , hiperparametetre optimize edilir . Veri setimin sınıflandırmasını EFC ve RFC ile yaptım . Accuracy = 1 çıkıyor . 
+
+#Kendi notum
+Size gönderdiğim ürün istenenden çok uzak . Makine öğrenmesine yeni başladığım için biraz elimi kirlererek öğrenmeye çalıştığım , bu nedenle yetişmedi . Ancak gerçekten çok güzel bir etkinlik oldu . Herşey için çok teşekkür ederim .
 
 
 
