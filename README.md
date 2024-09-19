@@ -4,6 +4,41 @@
 # Projenin Amacı
 
 # Veri Seti
+Veri setimiz toplamda 149116 satır ve 17 sütundan oluşuyor . sütun isimleri :
+
+-Transaction ID: Numerical (Unique identifier for each transaction)
+
+-Transaction Date: Date (Date of the transaction)
+
+-Transaction Time: Time (Time of the transaction)
+
+-Store Number: Numerical (Identifier for the store location)
+
+-Store Location: Text (Location of the store)
+
+-Unit Number: Numerical (Unit number within the store)Product 
+
+-Category: Text (Category of the product)
+
+-Product Type: Text (Type of product within the category)
+
+-Product Name: Text (Specific name of the product)
+
+-Price: Numerical (Price of the product)
+
+-Month: Numerical (Month of the transaction)
+
+-Day: Numerical (Day of the month)
+
+-Weekday: Text (Day of the week)
+
+-Hour: Numerical (Hour of the day)
+
+
+
+
+
+
 
 
 
@@ -37,6 +72,14 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 from joblib import Parallel , delayed
 
 from sklearn.pipeline import Pipeline
+
+mport plotly.express as px
+
+import plotly.graph_objects as go
+
+import plotly.figure_factory as ff
+
+from plotly.subplots import make_subplots
 
 
 
