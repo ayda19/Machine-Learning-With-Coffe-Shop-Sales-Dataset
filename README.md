@@ -2,9 +2,13 @@
 # Machine Learning with Coffe Shop Sales           
   
 # Projenin Amacı
+Projemiz kafenin satış mikarı ve toplam getirisinin çeşitli değişkenleri baz alarak analizini yapmak içşin yapılmıştır .
 
 # Veri Seti
-Veri setimiz toplamda 149116 satır ve 17 sütundan oluşuyor . sütun isimleri :
+Veri setimiz toplamda 149116 satır ve 17 sütundan oluşuyor . 
+
+
+**Sütun isimleri** :
 
 -Transaction ID: Numerical (Unique identifier for each transaction)
 
@@ -33,15 +37,6 @@ Veri setimiz toplamda 149116 satır ve 17 sütundan oluşuyor . sütun isimleri 
 -Weekday: Text (Day of the week)
 
 -Hour: Numerical (Hour of the day)
-
-
-
-
-
-
-
-
-
 
 
 
@@ -84,7 +79,8 @@ from plotly.subplots import make_subplots
 
 
 # Model Seçimi
-
+En iyi perfomansaı veren algoritma seçilir , hiperparametetre optimize edilir . 
+Bu projede en iyi performansı veren modelin 
 
 
 
